@@ -83,7 +83,7 @@ body {
     text-align: center;
 }
 
-.lang>ul>li>a:hover {
+.lang>li>a:hover {
     background-color: #fff;
     color: #111;
 }
@@ -124,6 +124,16 @@ body {
 .header_black .gnb .overlay .lang a {
     background-color: rgba(255, 255, 255, 0.3);
     color: #fff;
+}
+
+.header_black .gnb .lang li a:hover {
+    color: #fff;
+    background-color: #111;
+}
+
+.header_black .gnb .overlay .lang li a:hover {
+    color: #111;
+    background-color: #fff;
 }
 
 .header_black #toggle div.bar,
