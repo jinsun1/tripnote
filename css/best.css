@@ -94,7 +94,7 @@ body {
 
 /*header_black*/
 .header_black {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #fff;
 }
 
 .header_black .logo .st0 {
@@ -204,6 +204,10 @@ body {
 .text_box p {
     font-size: 23px;
     font-weight: 400;
+}
+
+.text_box br {
+    display: none;
 }
 
 /*bucket_slide*/
@@ -852,7 +856,8 @@ body {
 
     .text_box h1 {
         font-weight: 600;
-        font-size: 40px;
+        font-size: 35px;
+
         padding-bottom: 10px;
     }
 
@@ -931,12 +936,18 @@ body {
     }
 
     .text_box h1 {
-        font-size: 35px;
-        padding-bottom: 10px;
+        font-size: 38px;
+        line-height: 50px;
+        padding-bottom: 20px;
+        letter-spacing: 1px;
     }
 
     .text_box p {
         font-size: 20px;
+    }
+
+    .text_box br {
+        display: block;
     }
 
     /*bucket_slide*/
@@ -1070,9 +1081,10 @@ body {
     }
 
     .text_box h1 {
-        font-size: 30px;
+        font-size: 28px;
         padding-bottom: 20px;
-        letter-spacing: -1px;
+        line-height: 38px;
+        letter-spacing: 0;
     }
 
     .text_box p {
