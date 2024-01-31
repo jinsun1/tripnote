@@ -1336,8 +1336,9 @@ section {
 
 }
 
-@media (max-width:400px) {
+@media (max-width:375px) {
     #cafe_slide .title {
         font-size: 21px;
+        letter-spacing: 0px;
     }
 }
