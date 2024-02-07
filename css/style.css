@@ -256,7 +256,7 @@ body {
 
 #container p {
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .phone {
@@ -1440,6 +1440,9 @@ body {
 }
 
 @media(max-width:400px) {
+    .icon_box a {
+        margin-bottom: 15px;
+    }
 
     .phone {
         left: 10%;
