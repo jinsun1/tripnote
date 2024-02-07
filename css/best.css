@@ -1135,6 +1135,14 @@ body {
         font-weight: 400;
     }
 
+    #best_tripnote .trip_slide:hover {
+        display: none;
+    }
+
+    #best_tripnote .trip_slide .img_wrapper .li_box:hover {
+        display: none;
+    }
+
 
     /*best*/
     #best {
