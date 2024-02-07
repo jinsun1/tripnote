@@ -274,7 +274,7 @@ body {
 }
 
 #best_tripnote .trip_slide {
-    animation: text_ani 20s linear infinite;
+    animation: text_ani 30s linear infinite;
 }
 
 #best_tripnote .img_wrapper {
@@ -344,7 +344,7 @@ body {
 }
 
 .slide_text p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 22px;
     padding-left: 10px;
     padding-top: 10px;
@@ -1103,32 +1103,36 @@ body {
     }
 
     .li_box>a>img {
-        width: 100%;
+        width: 95%;
     }
 
     .li_box {
         width: 280px;
     }
 
+    .profile ol {
+        padding-top: 10px;
+    }
+
     #best_tripnote .img_wrapper {
         display: flex;
-        width: 2100px;
+        width: 1800px;
     }
 
     #best_tripnote .trip_slide {
-        width: 4200px;
+        width: 3600px;
         display: flex;
         height: 480px;
         align-items: center;
     }
 
     .slide_text p {
-        font-size: 17px;
+        font-size: 15px;
         line-height: 22px;
         padding-left: 10px;
         padding-top: 10px;
-        letter-spacing: 0;
-        font-weight: 500;
+        letter-spacing: -1px;
+        font-weight: 400;
     }
 
 
@@ -1328,12 +1332,31 @@ body {
 }
 
 @media(max-width:400px) {
-    #best {
-        padding-top: 120px;
+
+    .profile li {
+        font-size: 21px;
+    }
+
+    #best_tripnote .img_wrapper li {
+        margin: 0px 7px;
+    }
+
+    .profile ol {
+        padding-top: 10px;
+    }
+
+    .view_icon img {
+        width: 23px;
+        padding-right: 5px;
+    }
+
+    .view_icon li {
+        font-size: 15px;
     }
 
     /*best*/
     #best {
+        padding-top: 100px;
         width: 90%;
     }
 
