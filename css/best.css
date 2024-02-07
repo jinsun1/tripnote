@@ -224,7 +224,7 @@ body {
     text-align: center;
     padding-bottom: 40px;
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -361,12 +361,12 @@ body {
     width: 1100px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 260px;
+    padding-top: 200px;
     padding-bottom: 180px;
 }
 
 #best .title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 38px;
     letter-spacing: 3px;
     padding-bottom: 30px;
@@ -392,12 +392,13 @@ body {
 
 #best ul li:hover img {
     transform: scale(1.1, 1.1);
+
 }
 
 #best .best_text {
     text-align: left;
     position: absolute;
-    bottom: 40px;
+    bottom: 45px;
     left: 7%;
     color: #fff;
 }
@@ -409,9 +410,10 @@ body {
 }
 
 .best_text h2 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     padding-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 #best .best_text ol {
@@ -424,10 +426,10 @@ body {
     border: 1px solid #fff;
     text-align: center;
     align-items: center;
-    padding: 8px 18px;
-    margin-right: 8px;
+    padding: 8px 16px;
+    margin-right: 6px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
     border-radius: 40px;
 }
@@ -443,6 +445,7 @@ body {
     font-weight: 500;
     letter-spacing: 4px;
 }
+
 
 /*text_slide*/
 #text_slide {
@@ -872,37 +875,6 @@ body {
 
     }
 
-    /*best*/
-    #best {
-        width: 90%;
-        padding-bottom: 160px;
-        padding-top: 160px;
-    }
-
-    #best ul li img {
-        width: 100%;
-    }
-
-    .best_text ol li {
-        padding: 8px 18px;
-        margin-bottom: 5px;
-        font-weight: 400;
-        font-size: 16px;
-        letter-spacing: 1px;
-        border-radius: 40px;
-    }
-
-    .best_text ol li {
-        display: block;
-        border: 1px solid #fff;
-        text-align: center;
-        align-items: center;
-        padding: 5px 10px;
-        margin-right: 10px;
-        font-weight: 300;
-        font-size: 18px;
-        border-radius: 30px;
-    }
 }
 
 /*태블릿 미디어쿼리 끝부분*/
@@ -951,30 +923,61 @@ body {
     }
 
     /*bucket_slide*/
+    #bucket_slide {
+        padding: 200px 10%;
+    }
 
     .bucket_left {
         position: relative;
         width: 95%;
     }
 
+    .bucket_new p {
+        bottom: 21%;
+        left: 8%;
+        font-size: 22px;
+    }
+
+    /*text_slide*/
+    .text_wrapper h1 {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .text_wrapper p {
+        font-size: 55px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        padding-right: 0px;
+    }
+
+    .text_wrapper img {
+        width: 70%;
+    }
+
+
     /*BEST*/
     #best {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
         padding-top: 150px;
-        padding-bottom: 100px;
+        padding-bottom: 85px;
     }
 
     #best .title {
         font-size: 45px;
         letter-spacing: 3px;
-        padding-bottom: 25px;
+        padding-bottom: 30px;
     }
 
     #best>ul>li {
-        width: auto;
+        width: 80%;
         max-width: 350px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
+    }
+
+    #best>ul>li:last-child {
+        margin-bottom: 0;
     }
 
     #best ul li img {
@@ -1005,26 +1008,11 @@ body {
         align-items: center;
         padding: 5px 15px;
         margin-right: 7px;
+        margin-bottom: 5px;
         font-weight: 300;
         font-size: 19px;
         letter-spacing: 1px;
         border-radius: 40px;
-    }
-
-    /*text_slide*/
-    .text_wrapper h1 {
-        padding-right: 50px;
-    }
-
-    .text_wrapper p {
-        font-size: 55px;
-        font-weight: 800;
-        letter-spacing: 3px;
-        padding-right: 50px;
-    }
-
-    .text_wrapper img {
-        width: 70%;
     }
 
     /*footer*/
@@ -1044,7 +1032,7 @@ body {
     }
 
     #footer {
-        margin-top: 130px;
+        margin-top: 150px;
     }
 
     /*sub*/
@@ -1099,7 +1087,12 @@ body {
     }
 
     #bucket_slide {
-        padding: 100px 10%;
+        padding: 130px 10%;
+    }
+
+    .bucket_new p {
+        bottom: 22%;
+        font-size: 20px;
     }
 
     /*best_tripnote*/
@@ -1138,23 +1131,21 @@ body {
         font-weight: 500;
     }
 
+
     /*best*/
     #best {
         padding-top: 90px;
-        padding-bottom: 30px;
     }
 
     #best .title {
-        font-size: 28px;
+        font-size: 30px;
         letter-spacing: 1px;
         padding-bottom: 20px;
     }
 
     .best_text ol li {
-        border: none;
-        padding: 0;
         font-size: 18px;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
     }
 
     .best_text h2 {
@@ -1162,9 +1153,14 @@ body {
     }
 
     #best>ul>li {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        width: 80%;
     }
 
+    #best .best_text {
+        top: 54%;
+        left: 7%;
+    }
 
     #footer .text_left ul li {
         padding-right: 7px;
@@ -1174,7 +1170,7 @@ body {
     }
 
     #footer {
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     /*sub*/
@@ -1194,6 +1190,199 @@ body {
 }
 
 /*500px이하 미디어쿼리 끝부분*/
+
+/*best 미디어쿼리*/
+@media (min-width:1000px) and (max-width:1319px) {
+
+    /*best*/
+    #best {
+        width: 90%;
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    #best ul li img {
+        width: 100%;
+    }
+
+    #best .title {
+        font-size: 38px;
+        letter-spacing: 3px;
+        padding-bottom: 30px;
+    }
+
+    #best .best_text {
+        text-align: left;
+        position: absolute;
+        bottom: 30px;
+        left: 7%;
+        color: #fff;
+    }
+
+    .best_text p {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .best_text h2 {
+        font-size: 33px;
+        font-weight: 600;
+        padding-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .best_text ol li {
+        display: block;
+        border: 1px solid #fff;
+        text-align: center;
+        align-items: center;
+        padding: 8px 16px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border-radius: 40px;
+    }
+
+    #best .rank_box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        background-color: #62c6c4;
+        padding: 25px;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+}
+
+
+@media (min-width:750px) and (max-width:999px) {
+
+    /*best*/
+    #best {
+        width: 90%;
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    #best ul li img {
+        width: 100%;
+    }
+
+    #best .title {
+        font-size: 38px;
+        letter-spacing: 3px;
+        padding-bottom: 30px;
+    }
+
+    #best .best_text {
+        text-align: left;
+        position: absolute;
+        bottom: 22px;
+        left: 7%;
+        color: #fff;
+    }
+
+    .best_text p {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .best_text h2 {
+        font-size: 29px;
+        font-weight: 600;
+        padding-bottom: 8px;
+        letter-spacing: 1px;
+    }
+
+    .best_text ol li {
+        display: block;
+        border: 1px solid #fff;
+        text-align: center;
+        align-items: center;
+        padding: 4px 12px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border-radius: 40px;
+    }
+
+    #best .rank_box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        background-color: #62c6c4;
+        padding: 22px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+}
+
+@media(max-width:400px) {
+    #best {
+        padding-top: 120px;
+    }
+
+    /*best*/
+    #best {
+        width: 90%;
+    }
+
+    #best .title {
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    #korea_slide .korea_text {
+        height: 330px;
+        top: 55%;
+    }
+
+    .best_text ol li {
+        border: none;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    #best>ul>li {
+        width: 85%;
+    }
+
+    .best_text h2 {
+        font-size: 30px;
+    }
+
+    #best .best_text {
+        top: 65%;
+    }
+
+    .img_wrapper2 {
+        padding-bottom: 100px;
+    }
+
+    #best .rank_box {
+        padding: 22px;
+        font-size: 19px;
+    }
+
+    .text_wrapper {
+        width: 4600px;
+    }
+
+    #footer {
+        margin-top: 120px;
+    }
+}
 
 /*버킷리스트 추천여행지 중간 사이즈 미디어쿼리*/
 @media (min-width:750px) and (max-width:1180px) {}

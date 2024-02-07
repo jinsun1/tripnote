@@ -203,9 +203,9 @@ body {
 
 #cafe_slide .title {
     padding-top: 200px;
-    font-size: 38px;
-    font-weight: 700;
-    padding-bottom: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 35px;
 }
 
 #cafe_slide .title br {
@@ -345,9 +345,9 @@ section {
 
 
 #weekend .title {
-    padding-bottom: 25px;
-    font-size: 38px;
-    font-weight: 700;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
     text-align: left;
     max-width: 1100px;
     margin: 0 auto;
@@ -446,6 +446,7 @@ section {
 
 .korea_slide {
     width: 100%;
+    margin-bottom: 80px;
 }
 
 /*korea_map*/
@@ -478,6 +479,7 @@ section {
 .area_text h1 {
     font-size: 35px;
     padding-bottom: 30px;
+    font-weight: 600;
 }
 
 .area_text p {
@@ -992,7 +994,6 @@ section {
     }
 
     .text_box h1 {
-
         font-size: 30px;
         padding-bottom: 20px;
         letter-spacing: -1px;
@@ -1007,8 +1008,13 @@ section {
         padding-top: 100px;
         font-size: 29px;
         letter-spacing: 0px;
-
+        padding-bottom: 26px;
     }
+
+    #weekend .title {
+        font-size: 29px;
+    }
+
 
     /*map*/
     #korea_map {
@@ -1037,6 +1043,7 @@ section {
     .area_text p {
         font-size: 19px;
         padding-bottom: 30px;
+        line-height: 29px;
     }
 
     .area_list li {
@@ -1116,14 +1123,14 @@ section {
     .weekend_left p {
         left: 30px;
         bottom: 50px;
-        font-size: 33px;
-        line-height: 43px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .weekend_right .inner_text {
         left: 7%;
         bottom: 12%;
-        font-size: 25px;
+        font-size: 23px;
         line-height: 30px;
         letter-spacing: -1px;
     }
@@ -1135,8 +1142,8 @@ section {
 @media(max-width:580px) {
 
     #weekend .title {
-        padding-bottom: 25px;
-        font-size: 25px;
+        padding-bottom: 26px;
+        letter-spacing: -1px;
     }
 
     .weekend_left {
@@ -1174,7 +1181,7 @@ section {
 
     #weekend {
         text-align: center;
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 80px;
 
     }
@@ -1308,14 +1315,16 @@ section {
         font-size: 24px;
         padding-bottom: 30px;
     }
-
-
 }
 
 @media (max-width:450px) {
+    #weekend .title {
+        font-size: 26px;
+    }
+
     .korea_slide .swiper-slide {
         width: 100% !important;
-        height: 400px !important;
+        height: 360px !important;
     }
 
     #cafe_slide .swiper-slide h2 {
@@ -1332,17 +1341,20 @@ section {
     }
 
     #cafe_slide .title {
+        text-align: left;
         padding-top: 100px;
-        font-size: 25px;
-        letter-spacing: 0px;
-        padding-bottom: 10px;
+        font-size: 26px;
+        letter-spacing: 1px;
+        padding-bottom: 26px;
+        line-height: 32px;
     }
 
-}
+    #cafe_slide .title br {
+        display: block;
+    }
 
-@media (max-width:375px) {
-    #cafe_slide .title {
-        font-size: 21px;
-        letter-spacing: 0px;
+    .area_list a {
+        font-size: 18px;
+        height: 60px;
     }
 }
