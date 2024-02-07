@@ -1382,7 +1382,7 @@ body {
     }
 
     .best_text ol li {
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing: 0px;
     }
 
@@ -1506,7 +1506,7 @@ body {
     }
 
     #best .best_text {
-        top: 65%;
+        top: 64%;
     }
 
     .best_text p {
