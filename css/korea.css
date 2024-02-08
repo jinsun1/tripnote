@@ -1218,6 +1218,26 @@ section {
         background: url(../images/pc/korea/weekend_jpg/w1.jpg) no-repeat center center;
     }
 
+    .weekend_right a img {
+        display: none;
+    }
+
+    .weekend_right .li_r1 {
+        background: url(../images/mobile/korea/w2_m.jpg) center center;
+    }
+
+    .weekend_right .li_r2 {
+        background: url(../images/mobile/korea/w3_m.jpg) center 63%;
+    }
+
+    .weekend_right .li_r3 {
+        background: url(../images/mobile/korea/w4_m.jpg) center 20%;
+    }
+
+    .weekend_right .li_r4 {
+        background: url(../images/mobile/korea/w5_m.jpg) center 15%;
+    }
+
     #cafe_slide .swiper-slide h2 {
         color: #fff;
         font-weight: 400;
