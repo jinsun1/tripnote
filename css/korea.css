@@ -369,6 +369,18 @@ section {
     display: block;
 }
 
+.weekend_left a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.weekend_right a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
 .weekend_left img {
     width: 100%;
 }
@@ -1196,6 +1208,14 @@ section {
         padding-top: 40px;
         padding-bottom: 80px;
 
+    }
+
+    .weekend_left a img {
+        display: none;
+    }
+
+    .weekend_left a {
+        background: url(../images/pc/korea/weekend_jpg/w1.jpg) no-repeat center center;
     }
 
     #cafe_slide .swiper-slide h2 {
