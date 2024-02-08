@@ -872,8 +872,12 @@ body {
     /*bucket slide*/
     #bucket_slide {
         padding: 180px 10%;
-
     }
+
+    #best_tripnote .trip_slide:hover {
+        animation-play-state: running;
+    }
+
 
 }
 
@@ -1039,6 +1043,10 @@ body {
     #overlay {
         width: 100%;
     }
+
+    #best_tripnote .trip_slide:hover {
+        animation-play-state: running;
+    }
 }
 
 /*모바일 미디어쿼리 끝부분*/
@@ -1087,8 +1095,12 @@ body {
     }
 
     #bucket_slide {
-        padding: 130px 10%;
+        padding: 130px 0;
+        padding-left: 10%;
+
     }
+
+
 
     .bucket_new p {
         bottom: 22%;
@@ -1136,11 +1148,7 @@ body {
     }
 
     #best_tripnote .trip_slide:hover {
-        display: none;
-    }
-
-    #best_tripnote .trip_slide .img_wrapper .li_box:hover {
-        display: none;
+        animation-play-state: running;
     }
 
 
@@ -1340,6 +1348,12 @@ body {
 }
 
 @media(max-width:400px) {
+
+    #bucket_slide {
+        padding: 130px 0;
+        padding-left: 10%;
+        margin: 0 auto;
+    }
 
     .profile li {
         font-size: 21px;

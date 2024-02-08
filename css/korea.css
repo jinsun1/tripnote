@@ -1015,6 +1015,10 @@ section {
         font-size: 29px;
     }
 
+    #cafe_slide .swiper-slide {
+        width: 290px;
+        height: 382px;
+    }
 
     /*map*/
     #korea_map {
@@ -1074,6 +1078,10 @@ section {
 
         left: 15px;
     }
+
+    #cafe_slide {
+        width: 85%;
+    }
 }
 
 /*500px이하 미디어쿼리 끝부분*/
@@ -1094,6 +1102,7 @@ section {
         line-height: 25px;
         letter-spacing: -1px;
     }
+
 }
 
 /*weekend 태블릿사이즈 끝부분*/
@@ -1205,7 +1214,6 @@ section {
     }
 
     .area_text p {
-
         padding-bottom: 40px;
     }
 }
@@ -1251,6 +1259,10 @@ section {
         height: 60px;
     }
 
+    #cafe_slide {
+        width: 85%;
+    }
+
 }
 
 @media (min-width:800px) and (max-width:999px) {
@@ -1284,6 +1296,10 @@ section {
     .area_text p {
         padding-bottom: 15px;
     }
+
+    #cafe_slide {
+        width: 85%;
+    }
 }
 
 @media(min-width:501px) and (max-width:799px) {
@@ -1315,16 +1331,20 @@ section {
         font-size: 24px;
         padding-bottom: 30px;
     }
+
+    #cafe_slide {
+        width: 85%;
+    }
+
+    #cafe_slide .swiper-slide {
+        width: 320px;
+        height: 426px;
+    }
 }
 
 @media (max-width:450px) {
     #weekend .title {
         font-size: 26px;
-    }
-
-    .korea_slide .swiper-slide {
-        width: 100% !important;
-        height: 360px !important;
     }
 
     #cafe_slide .swiper-slide h2 {
@@ -1334,6 +1354,7 @@ section {
         letter-spacing: 0px;
     }
 
+
     #cafe_slide .swiper-slide span {
 
         letter-spacing: 1.5px;
@@ -1341,6 +1362,7 @@ section {
     }
 
     #cafe_slide .title {
+        margin-left: 10%;
         text-align: left;
         padding-top: 100px;
         font-size: 26px;
@@ -1356,5 +1378,12 @@ section {
     .area_list a {
         font-size: 18px;
         height: 60px;
+    }
+}
+
+@media (max-width:400px) {
+    #cafe_slide .swiper-slide {
+        width: 250px;
+        height: 330px;
     }
 }
