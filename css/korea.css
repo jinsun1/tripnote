@@ -280,7 +280,7 @@ section {
 #cafe_slide .swiper-slide h2 {
     color: #fff;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.2;
     margin-bottom: 15px;
     padding: 25px 45px 0 25px;
@@ -1191,10 +1191,12 @@ section {
     .weekend_left p {
         left: 18px;
         bottom: 40px;
-        font-size: 21px;
+        font-size: 19px;
         line-height: 30px;
         letter-spacing: -1px;
     }
+
+
 
     .weekend_right .inner_text {
         left: 7%;
@@ -1427,11 +1429,34 @@ section {
         font-size: 18px;
         height: 60px;
     }
+
+
 }
 
 @media (max-width:400px) {
     #cafe_slide .swiper-slide {
         width: 250px;
         height: 330px;
+    }
+
+    #cafe_slide .swiper-slide svg {
+        margin-right: 3px;
+    }
+
+    #cafe_slide .swiper-slide p {
+        font-size: 14px;
+    }
+
+    #cafe_slide .swiper-slide svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #cafe_slide .swiper-slide h2 {
+        margin-bottom: 3px;
+    }
+
+    #cafe_slide .swiper-slide p {
+        padding: 0 25px 30px 25px;
     }
 }
