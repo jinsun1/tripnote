@@ -2085,17 +2085,17 @@ body {
     .left_textbox h1 {
         font-size: 28px;
         line-height: 38px;
-        padding-bottom: 25px;
+        padding-bottom: 30px;
     }
 
     .left_textbox p {
-        padding-bottom: 20px;
+        padding-bottom: 25px;
         width: 80%;
         margin: 0 auto;
     }
 
     .left_textbox p img {
-        width: 70%;
+        width: 60%;
     }
 
     .icon_box a {
