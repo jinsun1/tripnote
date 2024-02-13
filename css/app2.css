@@ -157,7 +157,7 @@ body {
     z-index: -1;
 }
 
-#main_banner video .absolute {
+#main_banner video.absolute {
     position: absolute;
 }
 
@@ -891,7 +891,8 @@ body {
 /*sub*/
 .lang_box {
     position: absolute;
-    top: 30px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 30px;
     cursor: pointer;
     z-index: 1000;
@@ -1657,7 +1658,7 @@ body {
     #footer .text_left h4 {
         font-size: 15px;
         font-weight: 300;
-        padding-bottom: 30px;
+        padding-bottom: 35px;
     }
 
     /*sub*/
@@ -2095,7 +2096,7 @@ body {
     }
 
     .left_textbox p img {
-        width: 60%;
+        width: 62%;
     }
 
     .icon_box a {
