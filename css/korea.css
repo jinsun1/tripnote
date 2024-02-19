@@ -652,7 +652,7 @@ section {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 30px;
+    right: 3%;
     cursor: pointer;
     z-index: 1000;
     display: flex;
