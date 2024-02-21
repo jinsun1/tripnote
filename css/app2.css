@@ -196,6 +196,14 @@ body {
     text-align: center;
 }
 
+#scroll_svg {
+    width: 50px;
+    position: fixed;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
+
 /* .scroll_box p {
     height: 100vh;
     display: flex;
