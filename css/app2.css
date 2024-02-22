@@ -1372,6 +1372,10 @@ body {
         transform: translate(-55%, -55%);
     }
 
+    #scroll_svg {
+        width: 45px;
+    }
+
     /*slogan*/
     .Iam {
         font-size: 50px;
@@ -1801,6 +1805,10 @@ body {
         font-size: 29px;
         line-height: 50px;
         letter-spacing: -1px;
+    }
+
+    #scroll_svg {
+        width: 40px;
     }
 
     /*slogan*/
