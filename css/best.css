@@ -1135,7 +1135,7 @@ body {
     #best_tripnote .trip_slide {
         width: 3600px;
         display: flex;
-        height: 480px;
+        height: 420px;
         align-items: center;
     }
 
@@ -1349,6 +1349,28 @@ body {
 }
 
 @media(max-width:400px) {
+    #main_banner .bg1 {
+
+        background-position: center center;
+    }
+
+    #main_banner .bg3 {
+        background-image: url(../images/pc/best/bestmain_3.jpg);
+        width: 100%;
+        height: 100vh;
+    }
+
+    #main_banner .bg4 {
+        background-image: url(../images/pc/best/bestmain_4.jpg);
+        width: 100%;
+        height: 100vh;
+    }
+
+    #main_banner .bg5 {
+        background-image: url(../images/pc/best/bestmain_5.jpg);
+        width: 100%;
+        height: 100vh;
+    }
 
     #bucket_slide {
         padding: 130px 0;
